@@ -6,7 +6,7 @@ import ua.artcode.studentProject.model.Student;
 
 public class StudentUtils {
 
-    public static Student generateStudent(){
+    public static Student generateStudent() {
 
         String name = generateName();
         String phone = generatePhone();
@@ -31,7 +31,7 @@ public class StudentUtils {
     }
 
     private static int generateNum(int left, int right) {
-        return left + (int)(Math.random() * (right - left));
+        return left + (int) (Math.random() * (right - left));
     }
 
     private static String generateMail(String name) {
@@ -41,16 +41,16 @@ public class StudentUtils {
     private static String generatePhone() {
         String phone = "+380";
         for (int i = 0; i < 9; i++) {
-            phone += (int)(Math.random() * 10);
+            phone += (int) (Math.random() * 10);
         }
         return phone;
     }
 
     private static String generateName() {
         String[] names = {"Andrey", "Ivan", "Vova", "Sasha", "Yura", "Serhii", "Oleg", "Slava",
-                        "Katya", "Olga", "Nastya", "Vika", "Sonya"};
+                "Katya", "Olga", "Nastya", "Vika", "Sonya"};
 
-        return names[(int)(Math.random() * names.length)];
+        return names[(int) (Math.random() * names.length)];
     }
 
 }

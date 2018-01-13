@@ -16,23 +16,11 @@ public class MyData {
         return birthYear;
     }
 
-    public void setBirthYear(int birthYear) {
-        this.birthYear = birthYear;
-    }
-
     public int getBirthMonth() {
         return birthMonth;
     }
 
-    public void setBirthMonth(int birthMonth) {
-        this.birthMonth = birthMonth;
-    }
-
     public int getBirthDay() {
         return birthDay;
-    }
-
-    public void setBirthDay(int birthDay) {
-        this.birthDay = birthDay;
     }
 }
