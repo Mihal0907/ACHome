@@ -1,6 +1,5 @@
 package ua.artcode.week1day1.test;
 import ua.artcode.week1day1.model.*;
-import ua.artcode.week1day1.utils.*;
 
 public class TestStudent {
 
@@ -8,10 +7,11 @@ public class TestStudent {
 
         //create instance
         //allocate memory for student
-	    Student student1 = new Student();
+		MyData myData1 = new MyData(9, 7, 1998);
+	    Student student1 = new Student("Andrey", "0636523257", "miandmih@gmail.com", myData1,
+				2000.00,"Bucha", "SomeStreet", "56");
 
-	    student1.init("Andrey", 9, 7, 1998, "miandmih@gmail.com",
-				"Bucha", "SomeStreet", "56");
+
         System.out.println(student1.convertStudent());
     }
 

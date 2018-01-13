@@ -6,9 +6,7 @@ public class Student {
     public String phone;
     public String email;
 
-    public int birthYear;
-    public int birthMonth;
-    public int birthDay;
+    public MyData myData;
 
     public double paidMoney;
 
@@ -18,21 +16,21 @@ public class Student {
 
     public int taskCount;
 
+    public Student(String name, String phone, String email, MyData myData, double paidMoney, String city, String street, String houseNum) {
+        this.name = name;
+        this.phone = phone;
+        this.email = email;
+        this.myData = myData;
+        this.paidMoney = paidMoney;
+        this.city = city;
+        this.street = street;
+        this.houseNum = houseNum;
+    }
+
     public String convertStudent(){
 
         return String.format(" Name is: %s \n He(She) was born: %d:%d:%d \n His(Her) email is: %s \n Address: %s, %s, %s",
-                name, birthDay, birthMonth, birthYear, email, city, street, houseNum);
+                name, myData.birthDay, myData.birthMonth, myData.birthYear, email, city, street, houseNum);
     }
 
-    public void init(String name, int birthDay, int birthMonth, int birthYear,
-                     String email, String city, String street, String houseNum) {
-       this.name = name;
-       this.birthDay = birthDay;
-       this.birthMonth = birthMonth;
-       this.birthYear = birthYear;
-       this.email = email;
-       this.city = city;
-       this.street = street;
-       this.houseNum = houseNum;
-    }
 }
