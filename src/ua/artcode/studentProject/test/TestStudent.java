@@ -1,7 +1,7 @@
 package ua.artcode.studentProject.test;
 
 import ua.artcode.studentProject.model.*;
-import ua.artcode.studentProject.utils.StudentUtils;
+import ua.artcode.studentProject.utils.*;
 
 public class TestStudent {
 
