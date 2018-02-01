@@ -7,6 +7,7 @@ public class Worker {
    private double salary;
    private String phone;
 
+
     public Worker() {
         System.out.println("Worker constructor");
     }
