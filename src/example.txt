@@ -1,0 +1,18 @@
+1. Implement all ArrayUtils methods
+
+2. Finish StudentTask
+    2.1. Input Group name
+    2.2. Input Group size
+    2.3. Input Students information
+    2.4. show all groups
+
+    *Additional
+
+3. Push your code to github
+    tutorial video
+    https://www.youtube.com/watch?v=R6JomxUjTq8
+
+4. Additional instruments
+
+    visualizer - http://www.pythontutor.com/visualize.html#mode=display
+    xmind - http://www.xmind.net/
